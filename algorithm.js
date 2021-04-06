@@ -1,9 +1,8 @@
-//Создай файл algorithm.js
+//аново создай функцию getDayName. Функция должна всё также принимать парметр с именем day
 
-//Создай в ней функцию с именем getDayName
-
-function getDayName() {
- return ('проверка связи');
+function getDayName(day) {
+  if (typeof day !== 'number')
+  return 'error'
 };
 
-//
+console.log(getDayName('hello'));
